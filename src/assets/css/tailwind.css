@@ -1,0 +1,496 @@
+/* Pinegrow generated Design Panel Init Begin */
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,500,600,700,800|Sora:100,200,300,400,500,600,700,800&display=swap');
+
+
+    /* Pinegrow generated Design Panel Init End */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Inspired by https://m3.material.io/styles/color/the-color-system/tokens */
+@layer components {
+  .pg-primary {
+    @apply bg-primary-600 dark:bg-primary-200;
+  }
+  .pg-primary-text {
+    @apply text-primary-600 dark:text-primary-200;
+  }
+  .pg-on-primary {
+    @apply bg-white dark:bg-primary-800;
+  }
+  .pg-on-primary-text {
+    @apply text-white dark:text-primary-800;
+  }
+  .pg-primary-container {
+    @apply bg-primary-100 dark:bg-primary-700;
+  }
+  .pg-primary-container-text {
+    @apply text-primary-100 dark:text-primary-700;
+  }
+  .pg-on-primary-container {
+    @apply bg-primary-900 dark:bg-primary-100;
+  }
+  .pg-on-primary-container-text {
+    @apply text-primary-900 dark:text-primary-100;
+  }
+  .pg-inverse-primary {
+    @apply bg-primary-200 dark:bg-primary-600;
+  }
+  .pg-inverse-primary-text {
+    @apply text-primary-200 dark:text-primary-600;
+  }
+  .pg-on-inverse-primary {
+    @apply bg-primary-800 dark:bg-primary-50;
+  }
+  .pg-on-inverse-primary-text {
+    @apply text-primary-800 dark:text-primary-50;
+  }
+  .pg-inverse-primary-container {
+    @apply bg-primary-700 dark:bg-primary-100;
+  }
+  .pg-inverse-primary-container-text {
+    @apply text-primary-700 dark:text-primary-100;
+  }
+  .pg-on-inverse-primary-container {
+    @apply bg-primary-100 dark:bg-primary-900;
+  }
+  .pg-on-inverse-primary-container-text {
+    @apply text-primary-100 dark:text-primary-900;
+  }
+  .pg-secondary {
+    @apply bg-secondary-600 dark:bg-secondary-200;
+  }
+  .pg-secondary-text {
+    @apply text-secondary-600 dark:text-secondary-200;
+  }
+  .pg-on-secondary {
+    @apply bg-white dark:bg-secondary-800;
+  }
+  .pg-on-secondary-text {
+    @apply text-white dark:text-secondary-800;
+  }
+  .pg-secondary-container {
+    @apply bg-secondary-100 dark:bg-secondary-700;
+  }
+  .pg-secondary-container-text {
+    @apply text-secondary-100 dark:text-secondary-700;
+  }
+  .pg-on-secondary-container {
+    @apply bg-secondary-900 dark:bg-secondary-100;
+  }
+  .pg-on-secondary-container-text {
+    @apply text-secondary-900 dark:text-secondary-100;
+  }
+  .pg-inverse-secondary {
+    @apply bg-secondary-200 dark:bg-secondary-600;
+  }
+  .pg-inverse-secondary-text {
+    @apply text-secondary-200 dark:text-secondary-600;
+  }
+  .pg-on-inverse-secondary {
+    @apply bg-secondary-800 dark:bg-secondary-50;
+  }
+  .pg-on-inverse-secondary-text {
+    @apply text-secondary-800 dark:text-secondary-50;
+  }
+  .pg-inverse-secondary-container {
+    @apply bg-secondary-700 dark:bg-secondary-100;
+  }
+  .pg-inverse-secondary-container-text {
+    @apply text-secondary-700 dark:text-secondary-100;
+  }
+  .pg-on-inverse-secondary-container {
+    @apply bg-secondary-100 dark:bg-secondary-900;
+  }
+  .pg-on-inverse-secondary-container-text {
+    @apply text-secondary-100 dark:text-secondary-900;
+  }
+  .pg-tertiary {
+    @apply bg-tertiary-600 dark:bg-tertiary-200;
+  }
+  .pg-tertiary-text {
+    @apply text-tertiary-600 dark:text-tertiary-200;
+  }
+  .pg-on-tertiary {
+    @apply bg-white dark:bg-tertiary-800;
+  }
+  .pg-on-tertiary-text {
+    @apply text-white dark:text-tertiary-800;
+  }
+  .pg-tertiary-container {
+    @apply bg-tertiary-100 dark:bg-tertiary-700;
+  }
+  .pg-tertiary-container-text {
+    @apply text-tertiary-100 dark:text-tertiary-700;
+  }
+  .pg-on-tertiary-container {
+    @apply bg-tertiary-900 dark:bg-tertiary-100;
+  }
+  .pg-on-tertiary-container-text {
+    @apply text-tertiary-900 dark:text-tertiary-100;
+  }
+  .pg-inverse-tertiary {
+    @apply bg-tertiary-200 dark:bg-tertiary-600;
+  }
+  .pg-inverse-tertiary-text {
+    @apply text-tertiary-200 dark:text-tertiary-600;
+  }
+  .pg-on-inverse-tertiary {
+    @apply bg-tertiary-800 dark:bg-tertiary-50;
+  }
+  .pg-on-inverse-tertiary-text {
+    @apply text-tertiary-800 dark:text-tertiary-50;
+  }
+  .pg-inverse-tertiary-container {
+    @apply bg-tertiary-700 dark:bg-tertiary-100;
+  }
+  .pg-inverse-tertiary-container-text {
+    @apply text-tertiary-700 dark:text-tertiary-100;
+  }
+  .pg-on-inverse-tertiary-container {
+    @apply bg-tertiary-100 dark:bg-tertiary-900;
+  }
+  .pg-on-inverse-tertiary-container-text {
+    @apply text-tertiary-100 dark:text-tertiary-900;
+  }
+  .pg-surface {
+    @apply bg-white dark:bg-neutral-950;
+  }
+  .pg-surface-text {
+    @apply text-white dark:text-neutral-950;
+  }
+  .pg-on-surface {
+    @apply bg-neutral-900 dark:bg-neutral-50;
+  }
+  .pg-on-surface-text {
+    @apply text-neutral-900 dark:text-neutral-50;
+  }
+  .pg-surface-container {
+    @apply bg-neutral-50 dark:bg-neutral-900;
+  }
+  .pg-surface-container-text {
+    @apply text-neutral-50 dark:text-neutral-900;
+  }
+  .pg-on-surface-container {
+    @apply bg-neutral-900 dark:bg-neutral-100;
+  }
+  .pg-on-surface-container-text {
+    @apply text-neutral-900 dark:text-neutral-100;
+  }
+  .pg-surface-variant {
+    @apply bg-neutral-100 dark:bg-neutral-700;
+  }
+  .pg-surface-variant-text {
+    @apply text-neutral-100 dark:text-neutral-700;
+  }
+  .pg-on-surface-variant {
+    @apply bg-neutral-700 dark:bg-neutral-200;
+  }
+  .pg-on-surface-variant-text {
+    @apply text-neutral-700 dark:text-neutral-200;
+  }
+  .pg-outline {
+    @apply bg-neutral-500 dark:bg-neutral-400;
+  }
+  .pg-outline-text {
+    @apply text-neutral-500 dark:text-neutral-400;
+  }
+  .pg-border {
+    @apply border-[#272727] dark:border-[#494949];
+  }
+  .pg-outline-variant {
+    @apply bg-neutral-200 dark:bg-neutral-700;
+  }
+  .pg-outline-variant-text {
+    @apply text-neutral-200 dark:text-neutral-700;
+  }
+  .pg-border-variant {
+    @apply border-[#969696] dark:border-[#000000];
+  }
+  .pg-inverse-surface {
+    @apply bg-neutral-50 dark:bg-neutral-950;
+  }
+  .pg-inverse-surface-text {
+    @apply text-neutral-50 dark:text-neutral-950;
+  }
+  .pg-inverse-on-surface {
+    @apply bg-neutral-50 dark:bg-neutral-950;
+  }
+  .pg-inverse-on-surface-text {
+    @apply text-neutral-50 dark:text-neutral-950;
+  }
+  .pg-success {
+    @apply bg-success-600 dark:bg-success-200;
+  }
+  .pg-success-text {
+    @apply text-success-600 dark:text-success-200;
+  }
+  .pg-on-success {
+    @apply bg-white dark:bg-success-800;
+  }
+  .pg-on-success-text {
+    @apply text-white dark:text-success-800;
+  }
+  .pg-success-container {
+    @apply bg-success-100 dark:bg-success-700;
+  }
+  .pg-success-container-text {
+    @apply text-success-100 dark:text-success-700;
+  }
+  .pg-on-success-container {
+    @apply bg-success-900 dark:bg-success-100;
+  }
+  .pg-on-success-container-text {
+    @apply text-success-900 dark:text-success-100;
+  }
+  .pg-inverse-success {
+    @apply bg-success-200 dark:bg-success-600;
+  }
+  .pg-inverse-success-text {
+    @apply text-success-200 dark:text-success-600;
+  }
+  .pg-on-inverse-success {
+    @apply bg-success-800 dark:bg-success-50;
+  }
+  .pg-on-inverse-success-text {
+    @apply text-success-800 dark:text-success-50;
+  }
+  .pg-inverse-success-container {
+    @apply bg-success-700 dark:bg-success-100;
+  }
+  .pg-inverse-success-container-text {
+    @apply text-success-700 dark:text-success-100;
+  }
+  .pg-on-inverse-success-container {
+    @apply bg-success-100 dark:bg-success-900;
+  }
+  .pg-on-inverse-success-container-text {
+    @apply text-success-100 dark:text-success-900;
+  }
+  .pg-warning {
+    @apply bg-warning-600 dark:bg-warning-200;
+  }
+  .pg-warning-text {
+    @apply text-warning-600 dark:text-warning-200;
+  }
+  .pg-on-warning {
+    @apply bg-white dark:bg-warning-800;
+  }
+  .pg-on-warning-text {
+    @apply text-white dark:text-warning-800;
+  }
+  .pg-warning-container {
+    @apply bg-warning-100 dark:bg-warning-700;
+  }
+  .pg-warning-container-text {
+    @apply text-warning-100 dark:text-warning-700;
+  }
+  .pg-on-warning-container {
+    @apply bg-warning-900 dark:bg-warning-100;
+  }
+  .pg-on-warning-container-text {
+    @apply text-warning-900 dark:text-warning-100;
+  }
+  .pg-inverse-warning {
+    @apply bg-warning-200 dark:bg-warning-600;
+  }
+  .pg-inverse-warning-text {
+    @apply text-warning-200 dark:text-warning-600;
+  }
+  .pg-on-inverse-warning {
+    @apply bg-warning-800 dark:bg-warning-50;
+  }
+  .pg-on-inverse-warning-text {
+    @apply text-warning-800 dark:text-warning-50;
+  }
+  .pg-inverse-warning-container {
+    @apply bg-warning-700 dark:bg-warning-100;
+  }
+  .pg-inverse-warning-container-text {
+    @apply text-warning-700 dark:text-warning-100;
+  }
+  .pg-on-inverse-warning-container {
+    @apply bg-warning-100 dark:bg-warning-900;
+  }
+  .pg-on-inverse-warning-container-text {
+    @apply text-warning-100 dark:text-warning-900;
+  }
+  .pg-error {
+    @apply bg-error-600 dark:bg-error-200;
+  }
+  .pg-error-text {
+    @apply text-error-600 dark:text-error-200;
+  }
+  .pg-on-error {
+    @apply bg-white dark:bg-error-800;
+  }
+  .pg-on-error-text {
+    @apply text-white dark:text-error-800;
+  }
+  .pg-error-container {
+    @apply bg-error-100 dark:bg-error-700;
+  }
+  .pg-error-container-text {
+    @apply text-error-100 dark:text-error-700;
+  }
+  .pg-on-error-container {
+    @apply bg-error-900 dark:bg-error-100;
+  }
+  .pg-on-error-container-text {
+    @apply text-error-900 dark:text-error-100;
+  }
+  .pg-inverse-error {
+    @apply bg-error-200 dark:bg-error-600;
+  }
+  .pg-inverse-error-text {
+    @apply text-error-200 dark:text-error-600;
+  }
+  .pg-on-inverse-error {
+    @apply bg-error-800 dark:bg-error-50;
+  }
+  .pg-on-inverse-error-text {
+    @apply text-error-800 dark:text-error-50;
+  }
+  .pg-inverse-error-container {
+    @apply bg-error-700 dark:bg-error-100;
+  }
+  .pg-inverse-error-container-text {
+    @apply text-error-700 dark:text-error-100;
+  }
+  .pg-on-inverse-error-container {
+    @apply bg-error-100 dark:bg-error-900;
+  }
+  .pg-on-inverse-error-container-text {
+    @apply text-error-100 dark:text-error-900;
+  }
+  .pg-info {
+    @apply bg-info-600 dark:bg-info-200;
+  }
+  .pg-info-text {
+    @apply text-info-600 dark:text-info-200;
+  }
+  .pg-on-info {
+    @apply bg-white dark:bg-info-800;
+  }
+  .pg-on-info-text {
+    @apply text-white dark:text-info-800;
+  }
+  .pg-info-container {
+    @apply bg-info-100 dark:bg-info-700;
+  }
+  .pg-info-container-text {
+    @apply text-info-100 dark:text-info-700;
+  }
+  .pg-on-info-container {
+    @apply bg-info-900 dark:bg-info-100;
+  }
+  .pg-on-info-container-text {
+    @apply text-info-900 dark:text-info-100;
+  }
+  .pg-inverse-info {
+    @apply bg-info-200 dark:bg-info-600;
+  }
+  .pg-inverse-info-text {
+    @apply text-info-200 dark:text-info-600;
+  }
+  .pg-on-inverse-info {
+    @apply bg-info-800 dark:bg-info-50;
+  }
+  .pg-on-inverse-info-text {
+    @apply text-info-800 dark:text-info-50;
+  }
+  .pg-inverse-info-container {
+    @apply bg-info-700 dark:bg-info-100;
+  }
+  .pg-inverse-info-container-text {
+    @apply text-info-700 dark:text-info-100;
+  }
+  .pg-on-inverse-info-container {
+    @apply bg-info-100 dark:bg-info-900;
+  }
+  .pg-on-inverse-info-container-text {
+    @apply text-info-100 dark:text-info-900;
+  }
+  .pg-shadow {
+    @apply bg-black dark:bg-white;
+  }
+  .pg-shadow-text {
+    @apply text-black dark:text-white;
+  }
+  .pg-surface-tint {
+    @apply pg-primary;
+  }
+  .pg-surface-tint-text {
+    @apply pg-primary-text;
+  }
+  .pg-scrim {
+    @apply bg-black;
+  }
+  .pg-scrim-text {
+    @apply text-black;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-extrabold leading-none tracking-tight;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-4;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold mb-2;
+  }
+  h4 {
+    @apply text-xl md:text-2xl lg:text-3xl font-semibold mb-2;
+  }
+  h5 {
+    @apply text-base md:text-lg lg:text-xl font-medium mb-2;
+  }
+  h6 {
+    @apply text-sm md:text-base lg:text-lg font-medium mb-2;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    @apply pg-scrim-text;
+  }
+}
+
+/* Pinegrow generated Design Panel Extra Rules Begin */
+
+.poster {
+    z-index: 0;
+}
+
+.poster:before {
+    background-image: url(https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE1OHx8d2FsbHBhcGVyfGVufDB8fHx8MTY4MjI1MjYyMQ&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max)!important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: ' ';
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    position: absolute;
+    filter: blur(0px);
+}
+
+body.poster:before {
+position: fixed;
+}                        
+@media (min-width: 1440px), (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (min-resolution: 192dpi) {
+    .poster:before {                        
+        background-image: url(https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE1OHx8d2FsbHBhcGVyfGVufDB8fHx8MTY4MjI1MjYyMQ&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=max)!important;         
+    }                           
+}
+body, html {
+    min-height: 100vh;
+}
+
+    /* Pinegrow generated Design Panel Extra Rules End */
